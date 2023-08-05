@@ -1,12 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-    <script defer src="index.bundle.js"></script></head>
-    <body>
-        <h1 class="h1" id="h1">Hello world</h1>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://kit.fontawesome.com/1996e6895b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css" />
+    <title>My Meals</title>
+  <script defer src="index.bundle.js"></script></head>
+  <body>
+    <header class="head">
+      <div class="logo">
+        <i class="fa fa-cutlery"></i>
+        <h1>My <span>Meals</span></h1></div>
+      <nav>
+        <ul>
+          <li id="meals">Meals</li>
+          <li id="categories">Categories</li>
+          <li id="ingredients">Ingredients</li>
+        </ul>
+      </nav>
+    </header>
+    
 
-    </body>
+    <div class="home" id="data">
+    </div>
+    <div class="random"><h2>Favorite Meals</h2></div>
+
+    <footer>
+      <h2>Created by Microverse under CC license</h2>
+    </footer>
+    <script type="module" src="index.js"></script>
+  </body>
 </html>

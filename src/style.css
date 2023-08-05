@@ -2,7 +2,7 @@
 
 :root {
   --orange: #d57d1f;
-  --black: rgb(25, 42, 86, 0.9);
+  --black: rgba(23, 62, 161, 0.9);
   --light-color: #666;
   --box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
   --font-family: "Poppins", sans-serif;

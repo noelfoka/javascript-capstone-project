@@ -1,4 +1,4 @@
 import "./style.css";
-import getData from "./module/display-homepage";
+import getData from "./modules/display-homepage";
 
 getData();

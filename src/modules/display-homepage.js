@@ -1,4 +1,4 @@
-import showPopupComment from "./show-popup-comment";
+import showPopupComment from "./show-popup-comment.js";
 
 async function getData() {
   const response = await fetch(

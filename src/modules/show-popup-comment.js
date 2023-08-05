@@ -1,6 +1,9 @@
+<<<<<<< HEAD
 import addNewComment from './add-new-comment.js';
 import showCommentsList from './show-comments.js';
 
+=======
+>>>>>>> 744cffb053bc6673058ec2a7b8d74fe97ee5a9c0
 async function showPopupComment(id) {
   const response = await fetch(
     `https://www.themealdb.com/api/json/v1/1/lookup.php?i=${id}`,
@@ -43,6 +46,7 @@ async function showPopupComment(id) {
   d.textContent = `${data.meals[0].strInstructions}`;
   meal.appendChild(d);
 
+<<<<<<< HEAD
   // Comments
   const commentsContainer = document.createElement('div');
   commentsContainer.className = 'meal-popup-comments-container';
@@ -94,6 +98,8 @@ async function showPopupComment(id) {
     }
   });
 
+=======
+>>>>>>> 744cffb053bc6673058ec2a7b8d74fe97ee5a9c0
   mainSection.appendChild(meal);
 }
 

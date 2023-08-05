@@ -7,13 +7,17 @@
  * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
  */
 /******/ (() => { // webpackBootstrap
+<<<<<<< HEAD
 /******/ 	"use strict";
+=======
+>>>>>>> 744cffb053bc6673058ec2a7b8d74fe97ee5a9c0
 /******/ 	var __webpack_modules__ = ({
 
 /***/ "./src/index.js":
 /*!**********************!*\
   !*** ./src/index.js ***!
   \**********************/
+<<<<<<< HEAD
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n/* harmony import */ var _modules_display_homepage__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/display-homepage */ \"./src/modules/display-homepage.js\");\n\n\n(0,_modules_display_homepage__WEBPACK_IMPORTED_MODULE_1__[\"default\"])();\n\n//# sourceURL=webpack://capstone-project/./src/index.js?");
@@ -177,11 +181,17 @@ eval("\n\n/* istanbul ignore next  */\nfunction apply(styleElement, options, obj
 /***/ ((module) => {
 
 eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElement) {\n  if (styleElement.styleSheet) {\n    styleElement.styleSheet.cssText = css;\n  } else {\n    while (styleElement.firstChild) {\n      styleElement.removeChild(styleElement.firstChild);\n    }\n    styleElement.appendChild(document.createTextNode(css));\n  }\n}\nmodule.exports = styleTagTransform;\n\n//# sourceURL=webpack://capstone-project/./node_modules/style-loader/dist/runtime/styleTagTransform.js?");
+=======
+/***/ (() => {
+
+eval("var h1 = document.getElementById('h1');\nh1.style.color = 'red';\n\n//# sourceURL=webpack://javascript-capstone-project/./src/index.js?");
+>>>>>>> 744cffb053bc6673058ec2a7b8d74fe97ee5a9c0
 
 /***/ })
 
 /******/ 	});
 /************************************************************************/
+<<<<<<< HEAD
 /******/ 	// The module cache
 /******/ 	var __webpack_module_cache__ = {};
 /******/ 	
@@ -253,11 +263,18 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
 /******/ 	})();
 /******/ 	
 /************************************************************************/
+=======
+>>>>>>> 744cffb053bc6673058ec2a7b8d74fe97ee5a9c0
 /******/ 	
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module can't be inlined because the eval devtool is used.
+<<<<<<< HEAD
 /******/ 	var __webpack_exports__ = __webpack_require__("./src/index.js");
+=======
+/******/ 	var __webpack_exports__ = {};
+/******/ 	__webpack_modules__["./src/index.js"]();
+>>>>>>> 744cffb053bc6673058ec2a7b8d74fe97ee5a9c0
 /******/ 	
 /******/ })()
 ;

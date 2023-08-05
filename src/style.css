@@ -1,8 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,500&display=swap");
 
 :root {
+<<<<<<< HEAD
+  --orange: #4d088691;
+  --black: rgba(67, 33, 74, 0.945);
+=======
   --orange: #d57d1f;
   --black: rgba(23, 62, 161, 0.9);
+>>>>>>> 744cffb053bc6673058ec2a7b8d74fe97ee5a9c0
   --light-color: #666;
   --box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
   --font-family: "Poppins", sans-serif;
@@ -124,7 +129,11 @@ footer h2 {
   display: grid;
   grid-template-rows: auto 25% 25%;
   margin: 0 1em 5em 0;
+<<<<<<< HEAD
+  width: 25em;
+=======
   width: 20em;
+>>>>>>> 744cffb053bc6673058ec2a7b8d74fe97ee5a9c0
   height: 33em;
   background-color: white;
   border-radius: 0.5em;

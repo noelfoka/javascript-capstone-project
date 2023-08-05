@@ -1,3 +1,9 @@
+<<<<<<< HEAD
+import addNewComment from './add-new-comment.js';
+import showCommentsList from './show-comments.js';
+
+=======
+>>>>>>> 744cffb053bc6673058ec2a7b8d74fe97ee5a9c0
 async function showPopupComment(id) {
   const response = await fetch(
     `https://www.themealdb.com/api/json/v1/1/lookup.php?i=${id}`,
@@ -40,6 +46,60 @@ async function showPopupComment(id) {
   d.textContent = `${data.meals[0].strInstructions}`;
   meal.appendChild(d);
 
+<<<<<<< HEAD
+  // Comments
+  const commentsContainer = document.createElement('div');
+  commentsContainer.className = 'meal-popup-comments-container';
+  meal.appendChild(commentsContainer);
+
+  showCommentsList(id, commentsContainer);
+
+  const form = document.createElement('form');
+  form.className = 'meal-popup-add-comment-form';
+  meal.appendChild(form);
+
+  const formTitle = document.createElement('h3');
+  formTitle.className = 'meal-popup-add-comment-form-title';
+  formTitle.innerHTML = 'Add a comment';
+  form.appendChild(formTitle);
+
+  const formUsername = document.createElement('input');
+  formUsername.className = 'meal-popup-add-comment-form-username';
+  formUsername.setAttribute('placeholder', 'Your name');
+  form.appendChild(formUsername);
+
+  const formComment = document.createElement('textarea');
+  formComment.className = 'meal-popup-add-comment-form-comment';
+  formComment.setAttribute('placeholder', 'Your insights');
+  form.appendChild(formComment);
+
+  const formBtn = document.createElement('button');
+  formBtn.className = 'meal-popup-add-comment-form-btn';
+  formBtn.setAttribute('placeholder', 'Your comment');
+  formBtn.innerHTML = 'Comment';
+  form.appendChild(formBtn);
+
+  const formResContainer = document.createElement('p');
+  formResContainer.className = 'meal-popup-add-comment-form-res';
+  form.appendChild(formResContainer);
+
+  formBtn.addEventListener('click', (e) => {
+    e.preventDefault();
+    if (formUsername.value && formComment.value) {
+      addNewComment(id, formUsername.value, formComment.value);
+      formUsername.value = '';
+      formComment.value = '';
+    } else {
+      const formRes = document.createElement('p');
+      formRes.className = 'meal-popup-add-comment-form-res';
+      formRes.innerHTML = 'Username and comment should not be empty';
+      formResContainer.innerHTML = '';
+      formResContainer.appendChild(formRes);
+    }
+  });
+
+=======
+>>>>>>> 744cffb053bc6673058ec2a7b8d74fe97ee5a9c0
   mainSection.appendChild(meal);
 }
 

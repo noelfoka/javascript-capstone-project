@@ -61,7 +61,6 @@ header .logo h1 span {
   color: var(--orange);
 }
 
-
 header nav ul {
   display: flex;
   flex-direction: row;
@@ -235,15 +234,6 @@ button {
   margin: 1em 1em;
 }
 
-/*
-.meal-popup-close-icon {
-  font-size: 32px;
-  color: black;
-  position: fixed;
-  top: 18px;
-  right: 28px;
-}
-*/
 .meal-popup-div-img {
   display: flex;
   justify-content: center;
@@ -310,9 +300,9 @@ button {
 
 .meal-popup-add-comment-form-res {
   -webkit-animation-name: change-color;
-          animation-name: change-color;
+  animation-name: change-color;
   -webkit-animation-duration: 5s;
-          animation-duration: 5s;
+  animation-duration: 5s;
   font-size: 16px;
   width: 256px;
   font-weight: 300;
